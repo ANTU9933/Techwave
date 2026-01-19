@@ -63,14 +63,12 @@ header .header-left {
   background-size: cover;
   width: 100%;
   max-width: 1600px;
-  border: 1px solid white;
   margin-top: 30px;
   align-items: center;
   text-align: center;
 }
 .banner-content {
   width: 550px;
-  border: 1px solid white;
   margin: 101px auto;
 }
 .banner-content .image-box {
@@ -123,4 +121,47 @@ background-color: #1a0b2e;
 padding: 10px;
 border-radius: 10px;
 margin-left: 10px;
+}
+#podcast{
+ 
+  text-align: center;
+}
+#podcast .podcast-container{
+  width: 75%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+#podcast .written-section{
+  margin: 30px auto;
+ padding: 0px 200px;
+}
+#podcast .written-section h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+}
+#podcast .written-section p,.subscriber p{
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 28px;
+  color: white;
+  margin: 15px auto;
+}
+.subscriber-details {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  padding-right:  40px;
+  padding-left: 40px;
+  margin-top: 160px ;
+  margin-bottom: 100px;
+  
+}
+.subscriber-details .subscriber h1{
+  font-size: 48px;
+  color: #00FF88;
+}
+.subscriber .fa-plus{
+  font-size: 30px;
 }
