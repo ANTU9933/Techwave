@@ -165,3 +165,57 @@ margin-left: 10px;
 .subscriber .fa-plus{
   font-size: 30px;
 }
+.chose-items{
+  margin-top: 20px;
+  background-color: #230E3D;
+  
+  
+}
+.items-container h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  margin-top: 40px;
+  text-align: center;
+}
+.item-box div {
+  background-color: #351165;
+  padding: 10px;
+  border-radius: 10px;
+  
+  
+
+}
+.mobile{
+  grid-area: mobile;
+}
+.global{
+  grid-area: global;
+
+}
+.premium{
+  grid-area: premium;
+}
+.exclusive{
+  grid-area: exclusive;
+}
+.rich{
+  grid-area: rich;
+}
+.chose-items{
+  border: 1px solid white;
+}
+.item-box {
+  width: 75%;
+  max-width: 1200px;
+  margin: 20px auto;
+  display: grid;
+  gap: 20px;
+  
+
+  border: 1px solid white;
+  grid-template-areas: 
+  "premium mobile mobile"
+  "premium global global"
+  "exclusive exclusive rich";
+}
